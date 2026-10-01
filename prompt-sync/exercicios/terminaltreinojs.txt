@@ -1,0 +1,10 @@
+As frutas criadas no array foram: uva, abacaxi, melao.
+A segunda fruta do array é: abacaxi.
+4
+A primeira fruta do array é uva e a última fruta do array é banana.
+A soma dos números do array é: 27.
+uva
+abacaxi
+melao
+banana
+A fruta banana está no array? true.

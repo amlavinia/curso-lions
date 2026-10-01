@@ -1,0 +1,60 @@
+[200~amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: abacaxi, melao, banana.
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ 
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: abacaxi, melao, banana.
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: abacaxi, melao, banana.
+A segunda fruta do array é: melao.
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: abacaxi, melao, banana.
+A segunda fruta do array é: melao.
+3
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: abacaxi, melao, banana.
+A segunda fruta do array é: melao.
+4
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: uva, abacaxi, melao.
+A segunda fruta do array é: abacaxi.
+5
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: uva, abacaxi, melao.
+A segunda fruta do array é: abacaxi.
+4
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: uva, abacaxi, melao.
+A segunda fruta do array é: abacaxi.
+4
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: uva, abacaxi, melao.
+A segunda fruta do array é: abacaxi.
+4
+A primeira fruta do arrya é uva e a última fruta do array é banana.
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: uva, abacaxi, melao.
+A segunda fruta do array é: abacaxi.
+4
+A primeira fruta do array é uva e a última fruta do array é banana.
+A soma dos números do array é: 27.
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: uva, abacaxi, melao.
+A segunda fruta do array é: abacaxi.
+4
+A primeira fruta do array é uva e a última fruta do array é banana.
+A soma dos números do array é: 27.
+uva
+abacaxi
+melao
+banana
+amanda_lavinia@userroot-MS-7D46:~/Documentos/modulo/prompt-sync$ node treino.js
+As frutas criadas no array foram: uva, abacaxi, melao.
+A segunda fruta do array é: abacaxi.
+4
+A primeira fruta do array é uva e a última fruta do array é banana.
+A soma dos números do array é: 27.
+uva
+abacaxi
+melao
+banana
+A fruta banana está no array? true.~
