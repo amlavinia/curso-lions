@@ -4,6 +4,7 @@ const prompt = promptSync();
 while (true) {
 
 // 1. Mostrar o menu de opções
+===ESCOLHA UMA OPÇÃO===
 console.log("1 - Somar");
 console.log("2 - Subtrair");
 console.log("3 - Multiplicar");
