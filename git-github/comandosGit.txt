@@ -1,2 +1,0 @@
-git clone url - clonar repositorio na sua maquina
-git pull - puxar as mudancas que estao diferentes do repositorio remoto para sua maquina local
