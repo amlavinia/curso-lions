@@ -1,22 +1,22 @@
 import numeros from "./numeros.js";
 
 function calcularMediana() {
-    // 1. Valida se o array está vazio
+    let mediana = 0;
+
     if (numeros.length === 0) {
         return "A lista esta vazia.";
     }
 
-    // 2. Cria uma cópia e ordena os números em ordem crescente
-    const ordenados = [...numeros].sort((a, b) => a - b);
-    const meio = Math.floor(ordenados.length / 2);
+    const ordenados = numeros.slice ().sort((a, b) => a - b); // Usar para ordenar de forma crescente
+    const meio = Math.floor(ordenados.length / 2); //Identificar o tamanho do array e localizar o meio e transformar em numero inteiro
 
-    // 3. Se o número de elementos for ímpar, retorna o elemento do meio
-    if (ordenados.length % 2 !== 0) {
-        return ordenados[meio];
+    if (ordenados.length % 2 === 0) {
+        mediana = (ordenados[meio - 1] + ordenados[meio]) / 2;
+    } else {
+        mediana = ordenados[meio];
     }
 
-    // 4. Se for par, retorna a média dos dois elementos centrais
-    return (ordenados[meio - 1] + ordenados[meio]) / 2;
+    return mediana;
 }
 
 export default calcularMediana;
