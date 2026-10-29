@@ -10,7 +10,7 @@ const prompt = promptSync();
 let opcao;
 
 do {
-    console.log("=== Escolha uma opções ===");
+    console.log("\n=== Escolha uma das opções ===");
     console.log("1 - Listar Contatos");
     console.log("2 - Adicionar Contatos");
     console.log("3 - Atualizar Contatos");
@@ -20,19 +20,21 @@ do {
     opcao = parseInt(prompt("Escolha uma opção: "));
 
     switch (opcao) {
-        case '1':
+        case 1:
             listarContatos(contatos);
             break;
-        case '2':
-            adicionarContatos(contatos);
-            break;
-        case '3':
+        case 2:
+            console.log("Para adicionar um contato, informe os dados abaixo:");
+            let nome = prompt("Digite seu nome: ");
+            let telefone = prompt("DIgite um telefone para contato válido: ");
+            let email = prompt("Digite um e-mail válido: ");
+        case 3:
             atualizarContatos(contatos);
             break;
-        case '4':
-            excluirContatos(contatos);
+        case 4:
+            excluirContatos();
             break;
-        case '5':
+        case 5:
             console.log("A sair...");
             break;
         default:

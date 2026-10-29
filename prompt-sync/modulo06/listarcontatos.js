@@ -9,7 +9,7 @@ function listarContatos(contatos) {
         console.log(`\nID: ${contato.id}`);
         console.log(`Nome: ${contato.nome}`);
         console.log(`E-mail: ${contato.email}`);
-        console.log(`Telefones: ${contato.telefone.join(' | ')}`);
+        console.log(`Telefones: ${contato.telefones.join(' | ')}`);
     });
 }
 

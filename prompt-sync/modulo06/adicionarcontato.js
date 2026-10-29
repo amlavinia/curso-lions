@@ -4,7 +4,7 @@ let identificador = 1;
 function adicionarContato(contatos, novoContato) {
     let emailExiste = false;
 
-    for (i = 0; i < contatos.length; i++) {
+    for (let i = 0; i < contatos.length; i++) {
         if (contatos[i].email === novoContato.email) {
             emailExiste = true;
             break;      
