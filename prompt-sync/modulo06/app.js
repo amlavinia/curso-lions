@@ -28,6 +28,8 @@ do {
             let nome = prompt("Digite seu nome: ");
             let telefone = prompt("DIgite um telefone para contato válido: ");
             let email = prompt("Digite um e-mail válido: ");
+
+            adicionarContatos(nome, email, [telefone], contatos);
         case 3:
             atualizarContatos(contatos);
             break;

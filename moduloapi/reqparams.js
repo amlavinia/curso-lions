@@ -6,7 +6,13 @@ const port = 3003;
 app.use(express.json())
 
 app.get('/baralhos/:id', (req, res) => {
-    const id = req.params.id
+    const id = req.params.id;
+
+    if(!id){
+        res.status(400).json({
+            "mensagem": "Erro: id não veio pela url"
+        })
+    }
     res.status(200).json({
         "mensagem": 'Parâmetro recebido pelo req.params',
         "id": id,
