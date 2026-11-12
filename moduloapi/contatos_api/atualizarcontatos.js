@@ -1,6 +1,6 @@
 function atualizarContato(contatos, id, novosDados) {
 
-    const indice = contatos.findeIndex(contato => contato.id === id);
+    const indice = contatos.findIndex(contato => contato.id === id);
 
     if (indice === -1) {
         console.log("Erro: Cadastro não encontrado.")

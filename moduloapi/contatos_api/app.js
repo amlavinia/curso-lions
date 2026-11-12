@@ -3,7 +3,7 @@ import express from 'express';
 import contatos from "./contatos.js";
 import excluirContatos from "./excluircontatos.js";
 import adicionarContatos from "./adicionarcontato.js";
-import atualizarContatos from "./listarcontatos.js";
+import atualizarContatos from "./atualizarcontatos.js";
 
 const app = express();
 const port = 3000;
