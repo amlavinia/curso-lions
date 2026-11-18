@@ -13,13 +13,13 @@ const contatoSchema = new mongoose.Schema(
             trim: true,
             lowercase: true,
             unique: true
-        }
+        },
         telefones:[{
             type: String,
             trim: true
         }]
     },
-    (timestamps: true)
+    { timestamps: true }
 );
 
 const Contato = mongoose.model('Contato', contatoSchema);
