@@ -17,6 +17,23 @@ app.get("/", (req, res) => {
     res.send("Contatos!");   
 });
 
+app.get("/contato", async (req, res) => {
+    const todos_contatos = Contato.find();
+    res.status(200).json(todos_contatos);
+});
+
+app.get("/contato/:id", async (req, res) => {
+    try {
+        const contato = await Contato.findById(req.params.id);
+        if (!contato) {
+            return res.status(404).json({ message: `Não encontrado` });
+        }
+        return res.status(200).json(contato)
+    }   catch (error) {
+        return res.status(500).json({ message: error.message})
+    }
+})
+
 app.post("/contato", async (req, res) => {
     try {
         const dados = req.body;
@@ -28,7 +45,10 @@ app.post("/contato", async (req, res) => {
         const contato = await Contato.create(novo_contato);
         res.status(201).json(contato);
     } catch (error) {
-        console.error(error);
+
+        if (error.code == 11000) {
+            return res.status(409).json({ messagem: `Erro: email já está sendo utilizado` });
+        }
         res.status(400).json({ messagem: `Erro ao cadastrar contato: ${error.message}` });
     }
 });
