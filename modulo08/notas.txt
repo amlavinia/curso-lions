@@ -55,5 +55,6 @@ app.get("/contatos", (req, res) => {
 - Precisa conter async e await
 
 ----
-contatos
-id 
+
+# adiucionar try e catch  app.put async await
+

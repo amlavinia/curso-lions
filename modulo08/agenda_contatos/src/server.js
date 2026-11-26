@@ -34,6 +34,13 @@ app.get("/contato/:id", async (req, res) => {
     }
 })
 
+app.put("/contato/:id")
+    const atualizado = await Contato.findByIdAndUpdate {
+        req.params.id,
+        req.body,
+        
+    }
+
 app.post("/contato", async (req, res) => {
     try {
         const dados = req.body;
